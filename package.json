@@ -7,12 +7,21 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "ca:login": "aws codeartifact login --tool npm --repository web-common --domain trc-platform --domain-owner 710915658486",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.4",
     "@trc/web-common2": "^2.0.7-3",
+    "aws-sdk": "^2.1533.0",
+    "buffer": "^6.0.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.0.4",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "universal-cookie": "^7.0.1"
   },
   "devDependencies": {
     "@types/node": "^20.10.8",
