@@ -2066,6 +2066,11 @@ json5@^2.2.3:
   resolved "https://trc-platform-710915658486.d.codeartifact.us-east-2.amazonaws.com/npm/web-common/json5/-/json5-2.2.3.tgz"
   integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
+jwt-decode@^4.0.0:
+  version "4.0.0"
+  resolved "https://trc-platform-710915658486.d.codeartifact.us-east-2.amazonaws.com/npm/web-common/jwt-decode/-/jwt-decode-4.0.0.tgz#2270352425fd413785b2faf11f6e755c5151bd4b"
+  integrity sha512-+KJGIyHgkGuIq3IEBNftfhW/LfWhXUIY6OmyVWjliu5KH1y0fw7VQ8YndE2O4qZdMSd9SqbnC8GOcZEy0Om7sA==
+
 keyv@^4.5.3:
   version "4.5.4"
   resolved "https://trc-platform-710915658486.d.codeartifact.us-east-2.amazonaws.com/npm/web-common/keyv/-/keyv-4.5.4.tgz"

@@ -12,7 +12,7 @@ export default function App() {
   
   const theme = toroTheme('light')
 
-  function checkUser() {
+  const checkUser = () => {
     const c = new Cookies()
     if (c.get('auth-service-platform-token')) {
       setUser(true)
@@ -20,13 +20,14 @@ export default function App() {
   }
 
   useEffect(() => {
+    if(user) { return }
     checkUser()
   }, [])
 
   if (!user) {
     return (
       <ThemeProvider theme={theme}>
-        <SignIn />
+        <SignIn checkUser={checkUser}/>
       </ThemeProvider>
     )
   }
